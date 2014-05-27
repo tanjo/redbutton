@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:layout_gravity="center"
+    tools:context="in.tanjo.button.app.FullscreenActivity">
+
+    <Button
+        android:id="@+id/aka_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/release"
+        android:layout_gravity="center"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="@dimen/button_text_size"
+        />
+
+</FrameLayout>
